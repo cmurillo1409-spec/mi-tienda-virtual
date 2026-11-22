@@ -23,7 +23,8 @@ E-commerce funcional hecho solo con **HTML5, CSS3 y JavaScript** (sin frameworks
 ├── productos.js     # catálogo (arreglo de objetos)
 ├── carrito.js       # lógica, cálculos, localStorage y validaciones
 ├── app.js           # DOM y eventos
-└── *.svg            # imágenes de productos, logo y banner
+├── *.jpg            # fotos reales de los productos (Wikimedia Commons)
+└── logo.svg, banner.svg
 ```
 
 ## Ejecutar localmente
@@ -33,3 +34,6 @@ Abre `index.html` en el navegador (no requiere servidor).
 1. Crea un repositorio público (por ejemplo `mi-tienda-virtual`) y sube estos archivos a la raíz.
 2. En **Settings → Pages**, elige *Deploy from a branch*, rama `main`, carpeta `/ (root)`.
 3. La tienda quedará en `https://TU-USUARIO.github.io/mi-tienda-virtual/`.
+
+## Créditos de las imágenes
+Fotografías de [Wikimedia Commons](https://commons.wikimedia.org/) (CC0, dominio público y CC BY-SA). La autoría y la licencia de cada una están en el pie de página del sitio.
