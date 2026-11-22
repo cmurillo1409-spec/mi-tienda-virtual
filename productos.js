@@ -9,7 +9,7 @@ const PRODUCTOS = [
     descripcion: "Taladro con batería de litio, 2 velocidades y mandril de 13 mm. Ideal para metal, madera y concreto.",
     precio: 389900,
     categoria: "Herramientas eléctricas",
-    imagen: "taladro.svg"
+    imagen: "taladro.jpg"
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const PRODUCTOS = [
     descripcion: "Martillo de uña con cabeza de acero forjado y mango ergonómico antideslizante.",
     precio: 45900,
     categoria: "Herramientas manuales",
-    imagen: "martillo.svg"
+    imagen: "martillo.jpg"
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const PRODUCTOS = [
     descripcion: "Llave inglesa cromo-vanadio con escala grabada y apertura de hasta 35 mm.",
     precio: 59900,
     categoria: "Herramientas manuales",
-    imagen: "llave.svg"
+    imagen: "llave.jpg"
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const PRODUCTOS = [
     descripcion: "Casco dieléctrico en polietileno con suspensión de 4 puntos y ajuste de matraca.",
     precio: 34900,
     categoria: "Seguridad industrial",
-    imagen: "casco.svg"
+    imagen: "casco.jpg"
   },
   {
     id: 5,
@@ -41,7 +41,7 @@ const PRODUCTOS = [
     descripcion: "Guantes con recubrimiento de nitrilo, resistentes al corte y a la abrasión. Talla L.",
     precio: 27900,
     categoria: "Seguridad industrial",
-    imagen: "guantes.svg"
+    imagen: "guantes.jpg"
   },
   {
     id: 6,
@@ -49,7 +49,7 @@ const PRODUCTOS = [
     descripcion: "Lentes de policarbonato con filtro UV y tratamiento antiempañante para trabajo pesado.",
     precio: 19900,
     categoria: "Seguridad industrial",
-    imagen: "gafas.svg"
+    imagen: "gafas.jpg"
   },
   {
     id: 7,
@@ -57,7 +57,7 @@ const PRODUCTOS = [
     descripcion: "Cinta métrica de 8 m con carcasa resistente a impactos, freno de seguridad y clip de cinturón.",
     precio: 32900,
     categoria: "Medición",
-    imagen: "flexometro.svg"
+    imagen: "flexometro.jpg"
   },
   {
     id: 8,
@@ -65,7 +65,7 @@ const PRODUCTOS = [
     descripcion: "Mide voltaje AC/DC, corriente, resistencia y continuidad. Incluye puntas de prueba.",
     precio: 159900,
     categoria: "Medición",
-    imagen: "multimetro.svg"
+    imagen: "multimetro.jpg"
   },
   {
     id: 9,
@@ -73,7 +73,7 @@ const PRODUCTOS = [
     descripcion: "Nivel con tres burbujas de alta precisión y perfil de aluminio anodizado.",
     precio: 42900,
     categoria: "Medición",
-    imagen: "nivel.svg"
+    imagen: "nivel.jpg"
   },
   {
     id: 10,
@@ -81,7 +81,7 @@ const PRODUCTOS = [
     descripcion: "Juego de 6 destornilladores planos y de estrella con puntas magnéticas y mango bicolor.",
     precio: 38900,
     categoria: "Herramientas manuales",
-    imagen: "destornilladores.svg"
+    imagen: "destornilladores.jpg"
   },
   {
     id: 11,
@@ -89,7 +89,7 @@ const PRODUCTOS = [
     descripcion: "Caja de 19 pulgadas con bandeja desmontable, cierres reforzados y asa antideslizante.",
     precio: 119900,
     categoria: "Herramientas manuales",
-    imagen: "caja.svg"
+    imagen: "caja.jpg"
   },
   {
     id: 12,
@@ -97,6 +97,6 @@ const PRODUCTOS = [
     descripcion: "Chaleco con cintas reflectivas y cierre frontal ajustable. Clase 2, talla universal.",
     precio: 24900,
     categoria: "Seguridad industrial",
-    imagen: "chaleco.svg"
+    imagen: "chaleco.jpg"
   }
 ];
