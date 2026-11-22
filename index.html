@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="IndusPro: tienda virtual de herramientas, equipos de medición y elementos de protección personal para la industria.">
+  <title>IndusPro | Herramientas y Suministros Industriales</title>
+  <link rel="icon" type="image/svg+xml" href="img/logo.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="salto" href="#catalogo">Saltar al contenido</a>
+
+  <!-- ========== ENCABEZADO / NAVEGACIÓN (RF01, RF06) ========== -->
+  <header class="encabezado" id="inicio-top">
+    <div class="contenedor encabezado__barra">
+      <a class="marca" href="#inicio" aria-label="IndusPro, ir al inicio">
+        <img src="img/logo.svg" alt="Logotipo de IndusPro: engranaje industrial" width="44" height="44">
+        <span class="marca__texto">Indus<strong>Pro</strong></span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="menuPrincipal" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="menu" id="menuPrincipal" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#catalogo">Catálogo</a></li>
+          <li><a href="#carrito">Carrito</a></li>
+          <li><a href="#checkout">Finalizar compra</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <a class="carrito-acceso" href="#carrito" aria-label="Ver carrito de compras">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M7 18a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm10 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM1 2v2h2l3.6 7.6-1.4 2.4A2 2 0 0 0 7 17h12v-2H7.4l1.1-2h7.5a2 2 0 0 0 1.7-1l3.6-6.5A1 1 0 0 0 20.4 4H5.2l-.9-2H1Z"/></svg>
+        <span class="carrito-acceso__texto">Carrito</span>
+        <span class="insignia" id="contadorCarrito" aria-live="polite">0</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========== PÁGINA PRINCIPAL (RF01) ========== -->
+    <section class="hero" id="inicio" aria-labelledby="heroTitulo">
+      <img class="hero__fondo" src="img/banner.svg" alt="Ilustración de engranajes industriales sobre fondo azul oscuro">
+      <div class="contenedor hero__contenido">
+        <p class="etiqueta">Suministros industriales en Colombia</p>
+        <h1 id="heroTitulo">Todo para tu planta,<br>taller y obra en un solo lugar</h1>
+        <p class="hero__texto">Herramientas manuales y eléctricas, instrumentos de medición y elementos de protección personal con precios en pesos colombianos y envío a todo el país.</p>
+        <div class="hero__acciones">
+          <a class="btn btn--primario" href="#catalogo">Ver catálogo de productos</a>
+          <a class="btn btn--secundario" href="#carrito">Ir al carrito</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="nosotros seccion" id="nosotros" aria-labelledby="nosotrosTitulo">
+      <div class="contenedor">
+        <h2 id="nosotrosTitulo" class="seccion__titulo">Quiénes somos</h2>
+        <p class="seccion__sub"><strong>IndusPro</strong> es una tienda virtual creada por y para ingenieros, técnicos y operarios que necesitan herramientas confiables para producir con calidad y seguridad.</p>
+        <div class="tarjetas-info">
+          <article class="info">
+            <span class="info__icono" aria-hidden="true">🔧</span>
+            <h3>Calidad certificada</h3>
+            <p>Productos que cumplen normas técnicas para uso industrial exigente.</p>
+          </article>
+          <article class="info">
+            <span class="info__icono" aria-hidden="true">🚚</span>
+            <h3>Envío a todo el país</h3>
+            <p>Tarifa fija de $15.000 COP y envío gratis en compras desde $500.000 COP.</p>
+          </article>
+          <article class="info">
+            <span class="info__icono" aria-hidden="true">🦺</span>
+            <h3>Seguridad primero</h3>
+            <p>Amplia línea de EPP para cuidar a tu equipo de trabajo en cada turno.</p>
+          </article>
+          <article class="info">
+            <span class="info__icono" aria-hidden="true">📐</span>
+            <h3>Precisión</h3>
+            <p>Instrumentos de medición para control de calidad y mantenimiento.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CATÁLOGO (RF02) ========== -->
+    <section class="seccion seccion--gris" id="catalogo" aria-labelledby="catalogoTitulo">
+      <div class="contenedor">
+        <h2 id="catalogoTitulo" class="seccion__titulo">Catálogo de productos</h2>
+        <p class="seccion__sub">Elige tus productos y agrégalos al carrito. Todos los precios están en pesos colombianos (COP).</p>
+
+        <form class="filtros" id="filtros" role="search" aria-label="Filtrar productos" onsubmit="return false">
+          <div class="campo campo--inline">
+            <label for="buscador">Buscar</label>
+            <input type="search" id="buscador" placeholder="Ej: taladro, casco…" autocomplete="off">
+          </div>
+          <div class="campo campo--inline">
+            <label for="categoria">Categoría</label>
+            <select id="categoria"></select>
+          </div>
+          <div class="campo campo--inline">
+            <label for="orden">Ordenar por</label>
+            <select id="orden">
+              <option value="defecto">Destacados</option>
+              <option value="menor">Precio: menor a mayor</option>
+              <option value="mayor">Precio: mayor a menor</option>
+              <option value="nombre">Nombre (A-Z)</option>
+            </select>
+          </div>
+        </form>
+
+        <p class="resultados" id="resultados" aria-live="polite"></p>
+        <div class="catalogo" id="catalogoGrid"></div>
+      </div>
+    </section>
+
+    <!-- ========== CARRITO (RF03, RF04) ========== -->
+    <section class="seccion" id="carrito" aria-labelledby="carritoTitulo">
+      <div class="contenedor">
+        <h2 id="carritoTitulo" class="seccion__titulo">Tu carrito de compras</h2>
+        <p class="seccion__sub">Revisa tus productos, ajusta las cantidades o elimina los que no necesites.</p>
+
+        <div class="carrito-vacio" id="carritoVacio" hidden>
+          <p class="carrito-vacio__icono" aria-hidden="true">🛒</p>
+          <p><strong>Tu carrito está vacío.</strong></p>
+          <p>Agrega productos desde el catálogo para comenzar tu compra.</p>
+          <a class="btn btn--primario" href="#catalogo">Explorar catálogo</a>
+        </div>
+
+        <div class="tabla-envoltura" id="carritoContenido" hidden>
+          <table class="tabla-carrito">
+            <caption class="sr-only">Productos seleccionados en el carrito</caption>
+            <thead>
+              <tr>
+                <th scope="col">Producto</th>
+                <th scope="col">Precio unitario</th>
+                <th scope="col">Cantidad</th>
+                <th scope="col">Subtotal</th>
+                <th scope="col"><span class="sr-only">Acciones</span></th>
+              </tr>
+            </thead>
+            <tbody id="carritoCuerpo"></tbody>
+          </table>
+        </div>
+
+        <div class="resumen-grid">
+          <aside class="resumen" aria-labelledby="resumenTitulo">
+            <h3 id="resumenTitulo">Resumen de la compra</h3>
+            <dl class="resumen__lista">
+              <div><dt>Unidades seleccionadas</dt><dd id="totalUnidades">0</dd></div>
+              <div><dt>Subtotal de productos</dt><dd id="subtotalGeneral">$0 COP</dd></div>
+              <div><dt>Costo de envío</dt><dd id="costoEnvio">$0 COP</dd></div>
+              <div class="resumen__total"><dt>Total a pagar</dt><dd id="totalPagar">$0 COP</dd></div>
+            </dl>
+            <p class="nota" id="notaEnvio">Envío fijo de $15.000 COP. ¡Gratis desde $500.000 COP!</p>
+            <button class="btn btn--peligro btn--bloque" id="btnVaciar" type="button">Vaciar carrito</button>
+          </aside>
+
+          <!-- ========== FINALIZAR COMPRA (RF05) ========== -->
+          <div class="checkout" id="checkout">
+            <h3>Finalizar compra</h3>
+            <p class="nota">Simulación académica: no se realizan pagos reales. Los campos con <span class="req">*</span> son obligatorios.</p>
+            <form id="formCompra" novalidate>
+              <div class="campo">
+                <label for="nombre">Nombre completo <span class="req">*</span></label>
+                <input type="text" id="nombre" name="nombre" autocomplete="name" placeholder="Ej: María Fernanda López" aria-describedby="err-nombre" required>
+                <small class="error" id="err-nombre" role="alert"></small>
+              </div>
+              <div class="campo">
+                <label for="correo">Correo electrónico <span class="req">*</span></label>
+                <input type="email" id="correo" name="correo" autocomplete="email" placeholder="ejemplo@correo.com" aria-describedby="err-correo" required>
+                <small class="error" id="err-correo" role="alert"></small>
+              </div>
+              <div class="campo">
+                <label for="telefono">Teléfono <span class="req">*</span></label>
+                <input type="tel" id="telefono" name="telefono" autocomplete="tel" inputmode="numeric" placeholder="Ej: 3001234567" aria-describedby="err-telefono" required>
+                <small class="error" id="err-telefono" role="alert"></small>
+              </div>
+              <div class="campo">
+                <label for="ciudad">Ciudad <span class="req">*</span></label>
+                <select id="ciudad" name="ciudad" aria-describedby="err-ciudad" required>
+                  <option value="">Selecciona una ciudad</option>
+                  <option>Bogotá</option><option>Medellín</option><option>Cali</option>
+                  <option>Barranquilla</option><option>Cartagena</option><option>Bucaramanga</option>
+                  <option>Pereira</option><option>Manizales</option><option>Otra</option>
+                </select>
+                <small class="error" id="err-ciudad" role="alert"></small>
+              </div>
+              <div class="campo">
+                <label for="direccion">Dirección de entrega <span class="req">*</span></label>
+                <input type="text" id="direccion" name="direccion" autocomplete="street-address" placeholder="Ej: Calle 10 # 20-30, Barrio Centro" aria-describedby="err-direccion" required>
+                <small class="error" id="err-direccion" role="alert"></small>
+              </div>
+              <div class="campo">
+                <label for="notas">Observaciones (opcional)</label>
+                <textarea id="notas" name="notas" rows="2" placeholder="Indicaciones adicionales para la entrega"></textarea>
+              </div>
+              <p class="aviso" id="avisoCompra" role="alert" hidden></p>
+              <button class="btn btn--primario btn--bloque" id="btnFinalizar" type="submit">Finalizar compra</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== PIE DE PÁGINA (RF01) ========== -->
+  <footer class="pie" id="contacto">
+    <div class="contenedor pie__grid">
+      <div>
+        <p class="marca marca--pie"><img src="img/logo.svg" alt="" width="36" height="36"><span class="marca__texto">Indus<strong>Pro</strong></span></p>
+        <p>Herramientas y suministros industriales para quienes hacen que la industria funcione.</p>
+      </div>
+      <address>
+        <h3>Contacto</h3>
+        <p>📍 Carrera 45 # 26-85, Bogotá, Colombia</p>
+        <p>📞 <a href="tel:+576011234567">(601) 123 4567</a></p>
+        <p>✉️ <a href="mailto:ventas@indus-pro.example">ventas@indus-pro.example</a></p>
+      </address>
+      <div>
+        <h3>Horario de atención</h3>
+        <p>Lunes a viernes: 7:00 a.m. – 6:00 p.m.</p>
+        <p>Sábados: 8:00 a.m. – 1:00 p.m.</p>
+      </div>
+    </div>
+    <p class="pie__copy">© 2026 IndusPro · Proyecto académico – Examen Final de Programación Web · Ingeniería Industrial</p>
+  </footer>
+
+  <!-- Notificaciones -->
+  <div class="toasts" id="toasts" aria-live="polite" aria-atomic="false"></div>
+
+  <!-- Confirmación de compra (RF05) -->
+  <dialog class="modal" id="modalCompra" aria-labelledby="modalTitulo">
+    <div class="modal__icono" aria-hidden="true">✅</div>
+    <h2 id="modalTitulo">¡Compra realizada con éxito!</h2>
+    <p id="modalMensaje"></p>
+    <ul class="modal__detalle" id="modalDetalle"></ul>
+    <p class="nota">Esta es una simulación académica; no se realizó ningún cobro.</p>
+    <button class="btn btn--primario btn--bloque" id="modalCerrar" type="button">Seguir comprando</button>
+  </dialog>
+
+  <script src="js/productos.js"></script>
+  <script src="js/carrito.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

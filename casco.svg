@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<rect width="400" height="300" fill="#fef9c3"/>
+<circle cx="340" cy="50" r="90" fill="#ffffff" opacity=".35"/>
+<circle cx="50" cy="270" r="70" fill="#ffffff" opacity=".35"/>
+<ellipse cx="200" cy="268" rx="120" ry="12" fill="#000" opacity=".12"/>
+
+<path d="M105 192 A95 95 0 0 1 295 192 Z" fill="#facc15"/>
+<path d="M105 192 A95 95 0 0 1 130 125 L130 192 Z" fill="#eab308" opacity=".5"/>
+<rect x="188" y="96" width="24" height="96" rx="6" fill="#eab308"/>
+<rect x="88" y="190" width="224" height="22" rx="11" fill="#ca8a04"/>
+<rect x="168" y="150" width="64" height="28" rx="6" fill="#1f2937"/>
+<text x="200" y="170" font-family="Arial" font-size="14" font-weight="700" fill="#facc15" text-anchor="middle">EPP</text>
+</svg>
