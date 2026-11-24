@@ -43,14 +43,14 @@ Fotografías de [Wikimedia Commons](https://commons.wikimedia.org/):
 
 | Producto | Autor | Licencia |
 |----------|-------|----------|
-| Taladro | Fructibus | CC0 |
+| Taladro | Imagen aportada por el autor del proyecto | n/a |
 | Martillo | Santeri Viinamäki | CC BY-SA 4.0 |
-| Llave ajustable | Batholith | Dominio público |
-| Casco | Batholith | Dominio público |
+| Llave ajustable | Imagen aportada por el autor del proyecto | n/a |
+| Casco | Imagen aportada por el autor del proyecto | n/a |
 | Guantes | Imagen aportada por el autor del proyecto | n/a |
 | Gafas | Wasiul Bahar | CC BY-SA 4.0 |
 | Flexómetro | Evan-Amos | Dominio público |
-| Multímetro | Anselm Schüler | CC BY-SA 4.0 |
+| Multímetro | Imagen aportada por el autor del proyecto | n/a |
 | Nivel | Evan-Amos | Dominio público |
 | Destornilladores | oomlout | CC BY-SA 2.0 |
 | Caja de herramientas | Rieul Techer | CC BY-SA 4.0 |

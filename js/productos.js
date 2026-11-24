@@ -21,8 +21,8 @@ const PRODUCTOS = [
   },
   {
     id: 3,
-    nombre: "Llave ajustable 12 pulgadas",
-    descripcion: "Llave inglesa cromo-vanadio con escala grabada y apertura de hasta 35 mm.",
+    nombre: "Llave ajustable 10 pulgadas",
+    descripcion: "Llave inglesa cromada con escala grabada y apertura de hasta 30 mm.",
     precio: 59900,
     categoria: "Herramientas manuales",
     imagen: "img/llave.jpg"
