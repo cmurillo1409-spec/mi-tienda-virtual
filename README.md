@@ -44,10 +44,10 @@ Fotografías de [Wikimedia Commons](https://commons.wikimedia.org/):
 | Producto | Autor | Licencia |
 |----------|-------|----------|
 | Taladro | Fructibus | CC0 |
-| Martillo | Grieslightnin | CC0 |
+| Martillo | Santeri Viinamäki | CC BY-SA 4.0 |
 | Llave ajustable | Batholith | Dominio público |
 | Casco | Batholith | Dominio público |
-| Guantes | PumpkinSky | CC BY-SA 4.0 |
+| Guantes | el cajon yacht club | CC BY 2.0 |
 | Gafas | Wasiul Bahar | CC BY-SA 4.0 |
 | Flexómetro | Evan-Amos | Dominio público |
 | Multímetro | Anselm Schüler | CC BY-SA 4.0 |
