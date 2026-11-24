@@ -18,13 +18,16 @@ E-commerce funcional hecho solo con **HTML5, CSS3 y JavaScript** (sin frameworks
 ## Estructura
 
 ```
+tienda-virtual/
 ├── index.html
-├── styles.css       # hoja de estilos externa (Flexbox, Grid, responsive)
-├── productos.js     # catálogo (arreglo de objetos)
-├── carrito.js       # lógica, cálculos, localStorage y validaciones
-├── app.js           # DOM y eventos
-├── *.jpg            # fotos reales de los productos (Wikimedia Commons)
-└── logo.svg, banner.svg
+├── css/
+│   └── styles.css       # hoja de estilos externa (Flexbox, Grid, responsive)
+├── js/
+│   ├── productos.js     # catálogo (arreglo de objetos)
+│   ├── carrito.js       # lógica, cálculos, localStorage y validaciones
+│   └── app.js           # DOM y eventos
+└── img/
+    └── *.jpg            # fotos de productos, logo y banner
 ```
 
 ## Ejecutar localmente
