@@ -44,7 +44,7 @@ Fotografías de [Wikimedia Commons](https://commons.wikimedia.org/):
 | Producto | Autor | Licencia |
 |----------|-------|----------|
 | Taladro | Imagen aportada por el autor del proyecto | n/a |
-| Martillo | Santeri Viinamäki | CC BY-SA 4.0 |
+| Martillo | Imagen aportada por el autor del proyecto | n/a |
 | Llave ajustable | Imagen aportada por el autor del proyecto | n/a |
 | Casco | Imagen aportada por el autor del proyecto | n/a |
 | Guantes | Imagen aportada por el autor del proyecto | n/a |
