@@ -47,7 +47,7 @@ Fotografías de [Wikimedia Commons](https://commons.wikimedia.org/):
 | Martillo | Santeri Viinamäki | CC BY-SA 4.0 |
 | Llave ajustable | Batholith | Dominio público |
 | Casco | Batholith | Dominio público |
-| Guantes | el cajon yacht club | CC BY 2.0 |
+| Guantes | Imagen aportada por el autor del proyecto | n/a |
 | Gafas | Wasiul Bahar | CC BY-SA 4.0 |
 | Flexómetro | Evan-Amos | Dominio público |
 | Multímetro | Anselm Schüler | CC BY-SA 4.0 |

@@ -37,8 +37,8 @@ const PRODUCTOS = [
   },
   {
     id: 5,
-    nombre: "Guantes de seguridad anticorte",
-    descripcion: "Guantes con recubrimiento de nitrilo, resistentes al corte y a la abrasión. Talla L.",
+    nombre: "Guantes de cuero para trabajo pesado",
+    descripcion: "Guantes de cuero con palma reforzada, resistentes a la abrasión y al desgaste. Talla L.",
     precio: 27900,
     categoria: "Seguridad industrial",
     imagen: "img/guantes.jpg"
