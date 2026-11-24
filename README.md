@@ -39,4 +39,19 @@ Abre `index.html` en el navegador (no requiere servidor).
 3. La tienda quedará en `https://TU-USUARIO.github.io/mi-tienda-virtual/`.
 
 ## Créditos de las imágenes
-Fotografías de [Wikimedia Commons](https://commons.wikimedia.org/) (CC0, dominio público y CC BY-SA). La autoría y la licencia de cada una están en el pie de página del sitio.
+Fotografías de [Wikimedia Commons](https://commons.wikimedia.org/):
+
+| Producto | Autor | Licencia |
+|----------|-------|----------|
+| Taladro | Fructibus | CC0 |
+| Martillo | Grieslightnin | CC0 |
+| Llave ajustable | Batholith | Dominio público |
+| Casco | Batholith | Dominio público |
+| Guantes | PumpkinSky | CC BY-SA 4.0 |
+| Gafas | Wasiul Bahar | CC BY-SA 4.0 |
+| Flexómetro | Evan-Amos | Dominio público |
+| Multímetro | Anselm Schüler | CC BY-SA 4.0 |
+| Nivel | Evan-Amos | Dominio público |
+| Destornilladores | oomlout | CC BY-SA 2.0 |
+| Caja de herramientas | Rieul Techer | CC BY-SA 4.0 |
+| Chaleco reflectivo | Magnus Mertens | CC BY-SA 2.0 DE |

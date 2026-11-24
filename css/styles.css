@@ -254,9 +254,6 @@ ul { margin: 0; padding: 0; list-style: none; }
 .pie address { font-style: normal; }
 .pie__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 2rem; }
 .marca--pie { margin-bottom: .6rem; }
-.creditos { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(255, 255, 255, .15); font-size: .82rem; }
-.creditos ul { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: .2rem 1.5rem; }
-.creditos h3 { font-size: .95rem; margin-bottom: .4rem; }
 .pie__copy { text-align: center; border-top: 1px solid rgba(255, 255, 255, .15); margin: 2rem 0 0; padding: 1.2rem 1rem; font-size: .85rem; }
 
 /* ===========================================================
